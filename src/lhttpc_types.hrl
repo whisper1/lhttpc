@@ -1,3 +1,4 @@
+%%% encoding: latin-1
 %%% ----------------------------------------------------------------------------
 %%% Copyright (c) 2009, Erlang Training and Consulting Ltd.
 %%% All rights reserved.
@@ -28,7 +29,6 @@
 %% I get lots of questions for this, but it will be removed when R15 comes
 %% out, before that I belive it's more useful than harmful, since it makes
 %% lhttpc compile also with older erlang releases.
--type boolean() :: bool().
 
 -type header() :: {string() | atom(), string()}.
 -type headers() :: [header()].
